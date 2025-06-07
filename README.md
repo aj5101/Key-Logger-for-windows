@@ -35,30 +35,21 @@ python keylogger.py
 This will start capturing keystrokes and store them in log.txt in the same directory.
 
 ⌛ You may need to wait a few seconds for log updates.
-- (Optional) Convert to Executable
-If you want to run this on another Windows machine without Python installed, use pyinstaller:
 
-pip install pyinstaller
-pyinstaller keylogger.py --onefile --noconsole
-The compiled .exe will be found inside the dist/ folder.
---noconsole hides the terminal window to run stealthily.
-🔐 Stealth Tips (Ethical Use Only)
 
-Hide log.txt using file attributes
-Add code to email logs periodically (for learning purposes)
-Use task scheduler or registry entry to run on startup (learn responsibly)
-⚠️ Important Notes
+## ⚠️ Important Notes
 
-Running this script may trigger antivirus software.
-It will not work on Linux or macOS unless modified.
-You must have permission to use this on any device that isn’t your own.
-📜 Legal Disclaimer
+- Running this script may trigger antivirus software.
+- It will not work on Linux or macOS unless modified.
+-- You must have permission to use this on any device that isn’t your own.
+  
+## 📜 Legal Disclaimer
 
-This software is intended solely for authorized security research, educational use, or testing in environments where you have explicit permission.
+- This software is intended solely for authorized security research, educational use, or testing in environments where you have explicit permission.
 
-🛑 Never use keyloggers on devices or networks you do not own or have legal access to. Doing so is illegal and unethical.
-✅ Sample Use Cases (Ethical Only)
+- 🛑 Never use keyloggers on devices or networks you do not own or have legal access to. Doing so is illegal and unethical.
+## ✅ Sample Use Cases (Ethical Only)
 
-Penetration testing on lab environments
-Building understanding of cybersecurity vulnerabilities
-Creating custom logging for usability testing
+- Penetration testing on lab environments
+- Building understanding of cybersecurity vulnerabilities
+- Creating custom logging for usability testing
