@@ -16,7 +16,7 @@ This project is a basic **keylogger** written in Python, designed for educationa
 
 ## 📁 Project Files
 
-- `keylogger.py`: The main Python script that logs keystrokes
+- `main.py`: The main Python script that logs keystrokes
 - `log.txt`: Output file where keystrokes are recorded (auto-created)
 
 ---
