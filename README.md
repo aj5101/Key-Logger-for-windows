@@ -28,14 +28,14 @@ This project is a basic **keylogger** written in Python, designed for educationa
 - Required Python library:
   ```bash
   pip install pynput
-🛠️ How to Run
+## 🛠️ How to Run
 
-1. Run Script
+- Run Script
 python keylogger.py
 This will start capturing keystrokes and store them in log.txt in the same directory.
 
 ⌛ You may need to wait a few seconds for log updates.
-2. (Optional) Convert to Executable
+- (Optional) Convert to Executable
 If you want to run this on another Windows machine without Python installed, use pyinstaller:
 
 pip install pyinstaller
